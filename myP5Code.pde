@@ -8,12 +8,22 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
 
-  
+//face
+stroke(253, 226, 199)
+fill(253, 226, 199)
+ellipse(250, 110, 200, 175)
+ellipse(240, 75, 200, 175)
+
+//hair
+stroke(108, 161, 167)
+fill(108, 161, 167)
+ellipse(220, 20, 200, 100)
+rotate (39)
+
 
 }
 
