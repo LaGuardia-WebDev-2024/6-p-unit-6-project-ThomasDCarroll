@@ -7,10 +7,14 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255)
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
+//background
+fill(69, 56, 50)
+ellipse(0, 0, 10000, 10000)
 
 //face
 stroke(253, 226, 199)
@@ -18,11 +22,23 @@ fill(253, 226, 199)
 ellipse(250, 110, 200, 175)
 ellipse(240, 75, 200, 175)
 
+//eyes
+
+ellipse
+
 //hair
 stroke(108, 161, 167)
 fill(108, 161, 167)
-ellipse(220, 20, 200, 100)
-rotate (39)
+rotate(-.3)
+ellipse(190, 80, 180, 90)
+rotate(.3)
+rotate(-.7)
+ellipse(200, 210, 100, 40)
+rotate(.5)
+rotate(.7)
+ellipse(270, -150, 100, 40)
+rotate(-.7)
+ellipse(250, 20, 100, 40)
 
 
 }
