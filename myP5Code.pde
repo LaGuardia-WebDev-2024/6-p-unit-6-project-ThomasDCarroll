@@ -12,19 +12,55 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+
 //background
 fill(69, 56, 50)
 ellipse(0, 0, 10000, 10000)
+
+//hair behind
+stroke(108, 161, 167)
+fill(108, 161, 167)
+rotate(.9)
+ellipse(210, -230, 130, 70)
+rotate(-.9)
+ellipse(100, 110, 200, 175)
 
 //face
 stroke(253, 226, 199)
 fill(253, 226, 199)
 ellipse(250, 110, 200, 175)
-ellipse(240, 75, 200, 175)
+translate(-10, -35)
+ellipse(250, 110, 200, 175)
 
 //eyes
+stroke(255, 255, 255)
+strokeWeight(2)
+fill(255, 255, 255)
+ellipse(230, 110, 55, 75)
+translate(80, 0)
+ellipse(230, 110, 55, 75)
+translate(-80, 0)
+stroke(0, 0, 0)
+fill(0, 0, 0)
+ellipse(245, 130, 10, 20)
+translate(80, 0)
+ellipse(245, 130, 10, 20)
+translate(-80, 0)
+stroke(255, 255, 255)
+fill(255, 255, 255)
+ellipse(251, 120, 10, 10)
+translate(80, 0)
+ellipse(251, 120, 10, 10)
+translate(-80, 0)
 
 ellipse
+
+//hat
+stroke(0, 0, 0)
+fill(0, 0, 0)
+rotate(-.3)
+ellipse(100, 90, 100, 70)
+rotate(.3)
 
 //hair
 stroke(108, 161, 167)
@@ -38,8 +74,15 @@ rotate(.5)
 rotate(.7)
 ellipse(270, -150, 100, 40)
 rotate(-.7)
-ellipse(250, 20, 100, 40)
+ellipse(130, 120, 60, 120)
+rotate(.4)
+ellipse(140, 50, 60, 120)
+rotate(-.4)
 
+//ear
+stroke(253, 226, 199)
+fill(253, 226, 199)
+ellipse(130, 170, 70, 60)
 
 }
 
